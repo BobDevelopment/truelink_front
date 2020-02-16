@@ -1,0 +1,25 @@
+{
+  "name": "truelink_front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_PATH=. next",
+    "build": "cross-env NODE_PATH=. next build",
+    "start": "cross-env NODE_PATH=. NODE_ENV=production next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Bohdan S",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.9.2",
+    "@material-ui/icons": "^4.9.1",
+    "babel-plugin-dotenv-import": "^2.0.0",
+    "cross-env": "^7.0.0",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.2.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
